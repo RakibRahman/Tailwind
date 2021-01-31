@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Borders</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: 0;
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="p-5 my-5 text-2xl border">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, porro
+      ipsum expedita natus eaque perferendis maiores perspiciatis commodi
+      laboriosam
+      <span class="border-l-2 border-purple-300">facilis sed voluptatem</span>,
+      minus officia molestiae quas. Aperiam reprehenderit eius harum.
+    </p>
+    <p class="p-5 my-5 text-2xl border-2 border-red-300">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, porro
+      ipsum expedita natus eaque perferendis maiores perspiciatis commodi
+      laboriosam facilis sed voluptatem,
+      <span class="border-b-4 border-green-500 border-dotted">
+        laboriosam facilis sed voluptatem, minus officia molestiae quas. Aperiam
+        reprehenderit eius harum. laboriosam facilis sed voluptatem,
+      </span>
+    </p>
+    <p
+      class="p-5 my-5 text-2xl border-8 border-red-300 border-opacity-25 hover:border-gray-500"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, porro
+      ipsum expedita natus eaque perferendis maiores perspiciatis commodi
+      laboriosam facilis sed voluptatem, minus officia molestiae quas. Aperiam
+      reprehenderit eius harum.
+    </p>
+
+    <div class="w-1/4 h-auto mx-auto my-10 text-white">
+      <button class="w-20 p-1 bg-green-500 rounded">Rounded</button>
+      <button class="w-16 p-1 bg-green-600 rounded-sm">R sm</button>
+      <button class="w-16 p-1 bg-green-700 rounded-lg">R lg</button>
+      <button class="w-16 p-1 bg-green-800 rounded-full">R full</button>
+      <button class="w-16 p-1 bg-green-900 rounded">Test</button>
+    </div>
+    <div class="w-1/4 h-auto mx-auto my-10 text-white">
+      <button class="w-16 p-2 bg-green-200 rounded-t-2xl">Top</button>
+      <button class="w-16 p-2 bg-green-300 rounded-b-2xl">Bottom</button>
+      <button class="w-16 p-2 bg-green-400 rounded-r-2xl">Right</button>
+      <button class="w-16 p-2 bg-green-500 rounded-l-2xl">Left</button>
+      <button class="w-16 p-2 bg-green-600 rounded-tl-2xl">Top Left</button>
+      <button class="w-16 p-2 my-5 bg-green-700 rounded-tr-2xl">
+        Top Right
+      </button>
+      <button class="w-16 p-2 bg-green-800 rounded-br-2xl">Bottom Right</button>
+      <button class="w-16 p-2 bg-green-900 rounded-bl-2xl">Bottom Left</button>
+    </div>
+  </body>
+</html>
