@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Font Style,Weight</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="my-10 font-black text-center">
+      Font-Style,Weight,Transform,Decoration
+    </h1>
+
+    <div class="w-64 h-auto mx-auto my-10 bg-green-300">
+      <!-- font style and weight -->
+      <p class="italic">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam,
+        perferendis
+        <span class="not-italic bg-green-100">
+          perferendis placeat totam voluptate numquam, quia saepe, error
+          architecto recusandae perferendis </span
+        >tempore temporibus voluptatem quas pariatur. Non libero beatae
+        pariatur! <span class="font-thin">Reiciendis, suscipit!</span>
+      </p>
+    </div>
+    <div class="w-64 h-auto mx-auto my-0 mb-10 bg-red-300">
+      <!-- line height(leading) & letter spacing(tracking) -->
+      <p class="italic leading-relaxed tracking-wider">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam,
+        perferendis
+        <span class="not-italic bg-green-100">
+          perferendis placeat totam voluptate numquam, quia saepe, error
+          architecto recusandae perferendis </span
+        >tempore temporibus voluptatem quas pariatur. Non libero beatae
+        pariatur! <span class="font-thin">Reiciendis, suscipit!</span>
+      </p>
+      <p>
+        <!-- text decoration -->
+        <span class="underline">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus
+          at esse et
+        </span>
+        quis
+        <span class="no-underline">sed similique odit,</span>
+        voluptatibus iure! Laudantium ipsum voluptatem debitis illum fugiat
+        saepe!<span class="font-bold line-through">
+          Cum deserunt assumenda ut debitis?</span
+        >
+      </p>
+    </div>
+    <div class="w-64 h-auto mx-auto my-0 bg-blue-300">
+      <!-- text-transform -->
+      <p>
+        <span class="font-medium capitalize"
+          >Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span
+        >
+        <span class="font-bold uppercase">
+          Ut quae aut corrupti quia alias reiciendis harum incidunt minus porro
+          aliquam?
+        </span>
+        <span class="text-2xl lowercase"
+          >Totam, in nulla. Id repellat aspernatur praesentium molestiae esse
+          quo.</span
+        >
+      </p>
+    </div>
+  </body>
+</html>
