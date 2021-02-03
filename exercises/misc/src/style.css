@@ -6,7 +6,9 @@
 .card {
   @apply relative w-56 text-center overflow-hidden bg-indigo-300 py-3 px-2 rounded-t-lg transition-transform transform hover:rotate-45;
 }
-
+.heart {
+  @apply absolute top-0 right-0 text-2xl text-blue-400 fill-current mr-1 mt-1;
+}
 .flexbox {
   @apply flex flex-wrap justify-between items-center;
 }

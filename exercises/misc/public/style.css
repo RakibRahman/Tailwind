@@ -31206,6 +31206,19 @@ video {
   transition-duration: 150ms;
 }
 
+.heart {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-top: 0.25rem;
+  margin-right: 0.25rem;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  fill: currentColor;
+  --tw-text-opacity: 1;
+  color: rgba(96, 165, 250, var(--tw-text-opacity));
+}
+
 .flexbox {
   display: flex;
   flex-wrap: wrap;
