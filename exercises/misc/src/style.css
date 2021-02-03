@@ -4,5 +4,20 @@
 @tailwind utilities;
 
 .card {
-  @apply relative w-56 text-center overflow-hidden bg-indigo-300 py-3 px-2 rounded-t-lg;
+  @apply relative w-56 text-center overflow-hidden bg-indigo-300 py-3 px-2 rounded-t-lg transition-transform transform hover:rotate-45;
+}
+
+.flexbox {
+  @apply flex flex-wrap justify-between items-center;
+}
+
+.para {
+  @apply font-hand text-xl font-bold leading-relaxed tracking-wider text-white;
+}
+
+.pulse {
+  @apply animate-pulse w-44 h-44 rounded-full border-4 border-red-400;
+}
+.ping {
+  @apply animate-ping w-24 h-24 rounded-full border-4 border-red-400;
 }
