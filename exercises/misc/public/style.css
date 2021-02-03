@@ -31173,6 +31173,21 @@ video {
           animation: bounce 1s infinite;
 }
 
+.card {
+  --tw-bg-opacity: 1;
+  background-color: rgba(165, 180, 252, var(--tw-bg-opacity));
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  overflow: hidden;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  position: relative;
+  text-align: center;
+  width: 14rem;
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;

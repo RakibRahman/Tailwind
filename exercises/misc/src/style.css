@@ -2,3 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card {
+  @apply relative w-56 text-center overflow-hidden bg-indigo-300 py-3 px-2 rounded-t-lg;
+}
