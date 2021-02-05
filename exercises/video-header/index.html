@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Header</title>
+    <link rel="stylesheet" href="/exercises/tailwind.css" />
+  </head>
+  <body>
+    <header
+      class="relative flex items-center justify-center h-screen mb-12 overflow-hidden"
+    >
+      <nav
+        class="absolute top-0 left-0 z-50 flex flex-wrap items-center justify-around w-screen gap-4 font-black text-white"
+      >
+        <h1 class="text-2xl text-blue-500">Logo</h1>
+        <ul class="flex gap-4">
+          <li>Home</li>
+          <li>Contact</li>
+          <li>About</li>
+          <li>Projects</li>
+        </ul>
+      </nav>
+      <div class="relative z-30">
+        <h1
+          class="p-5 text-2xl font-bold text-blue-500 bg-white bg-opacity-75 rounded-xl"
+        >
+          Welcome To My Site
+        </h1>
+      </div>
+      <video
+        class="absolute z-10 w-auto min-w-full min-h-full max-w-none"
+        autoplay
+        loop
+        muted
+        src="./video.mp4"
+      ></video>
+    </header>
+  </body>
+</html>
