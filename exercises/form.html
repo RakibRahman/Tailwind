@@ -5,34 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
+    <link rel="stylesheet" href="/exercises/tailwind.css" />
   </head>
-  <body class="">
-    <form class="">
-      <h1 class="">Account Settings</h1>
-      <p class="">Changes you make will be visible to other users</p>
+  <body class="bg-gray-100">
+    <form class="max-w-3xl px-5 mx-auto my-20 space-y-6 text-gray-900">
       <div>
-        <label for="firstname">First Name</label>
-        <input class="" type="text" name="firstname" id="firstname" />
+        <h1 class="text-3xl font-black">Account Settings</h1>
+        <p class="text-gray-400">
+          Changes you make will be visible to other users
+        </p>
       </div>
-      <div>
-        <label for="lastname">Last Name</label>
-        <input class="" type="text" name="lastname" id="lastname" />
+
+      <div class="flex space-x-6">
+        <div class="w-1/2">
+          <label for="firstname">First Name</label>
+          <input
+            class="block w-full px-4 py-2 border border-gray-400 rounded-lg focus:outline-none focus:border-blue-500"
+            type="text"
+            name="firstname"
+            id="firstname"
+          />
+        </div>
+        <div class="w-1/2">
+          <label for="lastname">Last Name</label>
+          <input
+            class="block w-full px-4 py-2 border border-gray-400 rounded-lg focus:outline-none focus:border-blue-500"
+            type="text"
+            name="lastname"
+            id="lastname"
+          />
+        </div>
       </div>
       <div>
         <label for="address">Current Address</label>
-        <input class="" type="text" name="address" id="address" />
-        <p class="">We will use this as your billing address</p>
+        <input
+          class="block w-full px-4 py-2 border border-gray-400 rounded-lg focus:outline-none focus:border-blue-500"
+          type="text"
+          name="address"
+          id="address"
+        />
+        <p class="text-sm text-gray-400">
+          We will use this as your billing address
+        </p>
       </div>
       <div>
         <label for="budget">Budget</label>
-        <input
-          class=""
-          min="0"
-          step="0.01"
-          type="number"
-          name="budget"
-          id="budget"
-        />
+
+        <div class="flex">
+          <div class="flex items-center px-4 text-white bg-gray-500 rounded-l">
+            💲
+          </div>
+          <div class="w-1/4">
+            <input
+              class="block w-full px-4 py-2 placeholder-gray-300 border border-gray-400 rounded-r focus:outline-none focus:border-blue-500"
+              min="0"
+              step="0.01"
+              type="number"
+              name="budget"
+              id="budget"
+              placeholder="0.00"
+            />
+          </div>
+        </div>
       </div>
     </form>
   </body>
