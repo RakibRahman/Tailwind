@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hover, Focus, & Other States</title>
+    <link rel="stylesheet" href="/tailwind.css" />
+  </head>
+  <body>
+    <h1 class="my-10 text-4xl text-center">Hover, Focus, & Other States</h1>
+
+    <form
+      class="max-w-sm p-2 mx-auto space-y-3 transition-colors duration-200 bg-gray-300 border-4 border-yellow-400 hover:border-yellow-800 group hover:bg-black"
+      action=""
+    >
+      <p class="text-right">✖</p>
+      <label class="group-hover:text-white">
+        First Name:
+        <input
+          class="block bg-green-200 focus:ring-2 focus:ring-blue-600"
+          type="text"
+          name=""
+          id=""
+        />
+      </label>
+      <label class="group-hover:text-white">
+        Last Name:
+        <input
+          class="block bg-green-200 focus:ring-2 focus:ring-blue-600"
+          type="text"
+          name=""
+          id=""
+        />
+      </label>
+      <label class="group-hover:text-white">
+        Email:
+        <input
+          class="block bg-green-200 focus:ring-4 ring-inset ring-blue-600 ring-opacity-40"
+          type="text"
+          name=""
+          id=""
+        />
+      </label>
+
+      <button
+        class="block p-1 px-2 bg-green-200 group-hover:text-white focus:ring-2 ring-red-300"
+      >
+        Submit
+      </button>
+    </form>
+  </body>
+</html>

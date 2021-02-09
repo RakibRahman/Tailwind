@@ -31151,6 +31151,34 @@ video {
   }
 }
 
+@-webkit-keyframes wiggle {
+  0% {
+    transform: rotate(-15deg);
+  }
+
+  50% {
+    transform: rotate(15deg);
+  }
+
+  100% {
+    transform: rotate(-15deg);
+  }
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(-15deg);
+  }
+
+  50% {
+    transform: rotate(15deg);
+  }
+
+  100% {
+    transform: rotate(-15deg);
+  }
+}
+
 .animate-none {
   -webkit-animation: none;
           animation: none;
@@ -31174,6 +31202,26 @@ video {
 .animate-bounce {
   -webkit-animation: bounce 1s infinite;
           animation: bounce 1s infinite;
+}
+
+.animate-spin-slow {
+  -webkit-animation: spin 3s linear infinite;
+          animation: spin 3s linear infinite;
+}
+
+.animate-pulse-fast {
+  -webkit-animation: pulse 1s linear infinite;
+          animation: pulse 1s linear infinite;
+}
+
+.animate-bounce-fast {
+  -webkit-animation: bounce 1s linear infinite;
+          animation: bounce 1s linear infinite;
+}
+
+.animate-wiggle {
+  -webkit-animation: wiggle 2s linear infinite;
+          animation: wiggle 2s linear infinite;
 }
 
 @media (min-width: 640px) {
@@ -61721,6 +61769,26 @@ video {
   .sm\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .sm\:animate-spin-slow {
+    -webkit-animation: spin 3s linear infinite;
+            animation: spin 3s linear infinite;
+  }
+
+  .sm\:animate-pulse-fast {
+    -webkit-animation: pulse 1s linear infinite;
+            animation: pulse 1s linear infinite;
+  }
+
+  .sm\:animate-bounce-fast {
+    -webkit-animation: bounce 1s linear infinite;
+            animation: bounce 1s linear infinite;
+  }
+
+  .sm\:animate-wiggle {
+    -webkit-animation: wiggle 2s linear infinite;
+            animation: wiggle 2s linear infinite;
   }
 }
 
@@ -92270,6 +92338,26 @@ video {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
   }
+
+  .md\:animate-spin-slow {
+    -webkit-animation: spin 3s linear infinite;
+            animation: spin 3s linear infinite;
+  }
+
+  .md\:animate-pulse-fast {
+    -webkit-animation: pulse 1s linear infinite;
+            animation: pulse 1s linear infinite;
+  }
+
+  .md\:animate-bounce-fast {
+    -webkit-animation: bounce 1s linear infinite;
+            animation: bounce 1s linear infinite;
+  }
+
+  .md\:animate-wiggle {
+    -webkit-animation: wiggle 2s linear infinite;
+            animation: wiggle 2s linear infinite;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -122817,6 +122905,26 @@ video {
   .lg\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .lg\:animate-spin-slow {
+    -webkit-animation: spin 3s linear infinite;
+            animation: spin 3s linear infinite;
+  }
+
+  .lg\:animate-pulse-fast {
+    -webkit-animation: pulse 1s linear infinite;
+            animation: pulse 1s linear infinite;
+  }
+
+  .lg\:animate-bounce-fast {
+    -webkit-animation: bounce 1s linear infinite;
+            animation: bounce 1s linear infinite;
+  }
+
+  .lg\:animate-wiggle {
+    -webkit-animation: wiggle 2s linear infinite;
+            animation: wiggle 2s linear infinite;
   }
 }
 
@@ -153366,6 +153474,26 @@ video {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
   }
+
+  .xl\:animate-spin-slow {
+    -webkit-animation: spin 3s linear infinite;
+            animation: spin 3s linear infinite;
+  }
+
+  .xl\:animate-pulse-fast {
+    -webkit-animation: pulse 1s linear infinite;
+            animation: pulse 1s linear infinite;
+  }
+
+  .xl\:animate-bounce-fast {
+    -webkit-animation: bounce 1s linear infinite;
+            animation: bounce 1s linear infinite;
+  }
+
+  .xl\:animate-wiggle {
+    -webkit-animation: wiggle 2s linear infinite;
+            animation: wiggle 2s linear infinite;
+  }
 }
 
 @media (min-width: 1536px) {
@@ -183913,5 +184041,25 @@ video {
   .\32xl\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .\32xl\:animate-spin-slow {
+    -webkit-animation: spin 3s linear infinite;
+            animation: spin 3s linear infinite;
+  }
+
+  .\32xl\:animate-pulse-fast {
+    -webkit-animation: pulse 1s linear infinite;
+            animation: pulse 1s linear infinite;
+  }
+
+  .\32xl\:animate-bounce-fast {
+    -webkit-animation: bounce 1s linear infinite;
+            animation: bounce 1s linear infinite;
+  }
+
+  .\32xl\:animate-wiggle {
+    -webkit-animation: wiggle 2s linear infinite;
+            animation: wiggle 2s linear infinite;
   }
 }
