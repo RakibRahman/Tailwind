@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transition</title>
+    <link rel="stylesheet" href="/tailwind.css" />
+  </head>
+  <body class="grid h-screen gap-4 bg-gray-400 place-content-center">
+    <div
+      class="transition-transform duration-500 transform bg-white hover:bg-red-500 hover:-translate-y-8 w-44 h-44 hover:rotate-180"
+    ></div>
+    <div
+      class="transition-transform duration-500 ease-out transform bg-blue-500 hover:bg-green-500 hover:-translate-y-8 w-44 h-44 hover:rotate-180"
+    ></div>
+    <div
+      class="transition-transform duration-500 ease-in-out delay-500 transform bg-purple-400 hover:bg-red-500 hover:-translate-y-8 w-44 h-44 hover:rotate-180"
+    ></div>
+  </body>
+</html>
