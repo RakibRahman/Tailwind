@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transform</title>
+    <link rel="stylesheet" href="tailwind.css" />
+  </head>
+  <body>
+    <div
+      class="flex items-center justify-center w-screen h-screen gap-6 border"
+    >
+      <div
+        class="transition duration-300 transform bg-red-300 w-96 h-96 hover:scale-50"
+      ></div>
+      <div
+        class="transition duration-300 origin-bottom-left transform bg-red-400 w-96 h-96 hover:rotate-45"
+      ></div>
+      <div
+        class="transition duration-300 transform bg-red-500 w-96 h-96 hover:skew-y-6"
+      ></div>
+      <div
+        class="transition duration-300 transform bg-red-500 w-96 h-96 hover:translate-y-9"
+      ></div>
+    </div>
+  </body>
+</html>
