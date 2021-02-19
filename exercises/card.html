@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shadow Card</title>
+    <link rel="stylesheet" href="/tailwind.css" />
+  </head>
+  <body>
+    <!-- card wrapper -->
+    <div class="flex items-center justify-center min-h-screen bg-black">
+      <!-- card body -->
+      <div class="relative w-64 group">
+        <!-- yellow card -->
+        <
+        <div
+          class="absolute w-full h-full bg-yellow-400 rounded-lg -right-5 -bottom-8 group-hover:bg-yellow-900"
+        ></div>
+        <div
+          class="relative p-10 text-gray-100 transition-transform duration-100 ease-out transform bg-gray-800 rounded-lg hover:translate-y-8 hover:translate-x-8"
+        >
+          <!-- bar -->
+          <div class="w-16 h-1 bg-yellow-400 group-hover:bg-yellow-900"></div>
+
+          <h1 class="my-5 text-6xl text-black text-white">95%</h1>
+          <p class="my-5 leading-relaxed text-gray-400">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe
+            repudiandae quo facilis consequuntur voluptatum id ame.
+          </p>
+          <a class="flex items-center gap-1 text-yellow-500" href="#"
+            ><span>Learn More</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="25"
+              fill="#f14e0d"
+              viewBox="0 0 256 256"
+            >
+              <rect width="256" height="256" fill="none"></rect>
+              <line
+                x1="40"
+                y1="128"
+                x2="216"
+                y2="128"
+                fill="none"
+                stroke="yellow"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="16"
+              ></line>
+              <polyline
+                points="144 56 216 128 144 200"
+                fill="none"
+                stroke="yellow"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="16"
+              ></polyline></svg
+          ></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
